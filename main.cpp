@@ -201,7 +201,7 @@ void PrintTheHeader(int QuestionCurrentNumber, int TotalNumberOfQuestion) {
     cout << "Question" << "[" << QuestionCurrentNumber << "/" << TotalNumberOfQuestion<<"]" << "\n" << endl;
 }
 void PrintTheUserResult(int  NumberOfRightAnswer, int NumberOfWrongAnswers) {
-    if (NumberOfRightAnswer > NumberOfWrongAnswers) {
+    if (NumberOfRightAnswer >= NumberOfWrongAnswers) {
         system("color 20");
         cout << "Final Result is Pass  :-)";
     }
