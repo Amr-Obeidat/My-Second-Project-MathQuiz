@@ -18,11 +18,15 @@ float ReadNumber(const string& promt) {
     return number;
 }
 float  ReadUserNumber() {
-    int number;
-    cin >> number;
+    float number;
+    while (!(cin >> number)) {
+        cout << "Invalid value";
+        cin.clear();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    }
     return number;
-
 }
+
 
 int ReadPositiveNumber(const string& prompt) {
     int number;
@@ -178,7 +182,9 @@ void PrintTheEquation(float   &number1, float   &number2, enQuestionLevel &Quest
 
 }
 void PrintTheResult(float  &UserInput, float  &Result, stQuizResult& QuizResult) {
-    if (UserInput == Result) {
+    double tolarnc = 0.1;
+
+    if ((fabs(UserInput - Result))<=0.1) {
         cout << "Right Answer :-)\n";
         system("color 20");
         QuizResult.NumberOfRightAnswer++;
@@ -249,7 +255,7 @@ void StartTheQuiz() {
 
 
         ResetScreen();
-        int NumberOfRounds = ReadPositiveNumber("Enter The Number of Rounds  ");
+        int NumberOfRounds = ReadPositiveNumber("Enter The Number of Questions   ");
         StartQuiz(NumberOfRounds);
         cout << "Do you want to play again (Y,N) :";
        
