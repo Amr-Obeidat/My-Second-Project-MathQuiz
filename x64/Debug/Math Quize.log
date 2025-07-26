@@ -1,0 +1,14 @@
+﻿  Math Quize.cpp
+C:\Users\PC\source\repos\Math Quize\Math Quize\Math Quize.cpp(158,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\PC\source\repos\Math Quize\Math Quize\Math Quize.cpp(159,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\PC\source\repos\Math Quize\Math Quize\Math Quize.cpp(163,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\PC\source\repos\Math Quize\Math Quize\Math Quize.cpp(164,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\PC\source\repos\Math Quize\Math Quize\Math Quize.cpp(168,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\PC\source\repos\Math Quize\Math Quize\Math Quize.cpp(169,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\PC\source\repos\Math Quize\Math Quize\Math Quize.cpp(173,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\PC\source\repos\Math Quize\Math Quize\Math Quize.cpp(174,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\PC\source\repos\Math Quize\Math Quize\Math Quize.cpp(125,1): warning C4715: 'ReturnOperation': not all control paths return a value
+C:\Users\PC\source\repos\Math Quize\Math Quize\Math Quize.cpp(135,1): warning C4715: 'GetTheResult': not all control paths return a value
+C:\Users\PC\source\repos\Math Quize\Math Quize\Math Quize.cpp(144,1): warning C4715: 'GetQuestionLevel': not all control paths return a value
+C:\Users\PC\source\repos\Math Quize\Math Quize\Math Quize.cpp(154,1): warning C4715: 'GetOperationType': not all control paths return a value
+  Math Quize.vcxproj -> C:\Users\PC\source\repos\Math Quize\x64\Debug\Math Quize.exe
